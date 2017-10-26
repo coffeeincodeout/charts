@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e092223-4ecf-481d-9b41-b12866cbf679" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serializers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sunbizscraper" afterPath="$PROJECT_DIR$/sunbizscraper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts/settings.py" afterPath="$PROJECT_DIR$/charts/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts/urls.py" afterPath="$PROJECT_DIR$/charts/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/admin.py" afterPath="$PROJECT_DIR$/src/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/urls.py" afterPath="$PROJECT_DIR$/src/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views.py" afterPath="$PROJECT_DIR$/src/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -551,6 +544,14 @@
       <option name="presentableId" value="Default" />
       <updated>1508984510166</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project update with REST">
+      <created>1509042247113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509042247114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,6 +584,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project update with REST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project update with REST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
