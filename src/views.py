@@ -1,9 +1,15 @@
 from django.shortcuts import render
 from .models import BusinessProfile
 from django.views.generic import TemplateView
+
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import get_object_or_404
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .serializers import BusinessProfileSerializer
 # Create your views here.
 
-#TODO: look into class based views
 
 def index(request):
     zip_code_list = []
@@ -38,4 +44,19 @@ class DataView(TemplateView):
         context = super(DataView, self).get_context_data()
         context['legend'] = legend_zip
         return context
+
+
+class BusinessProfileList(APIView):
+
+    """
+    Lists all active companies
+    """
+
+    def get(self, request, format=None):
+        # Get all objects from database
+        company = BusinessProfile.objects.all()
+        # Pass all objects through to BusinessProfileSerializer class
+        serializer = BusinessProfileSerializer(company, many=True)
+        # Return JSON response
+        return Response(serializer.data)
 
